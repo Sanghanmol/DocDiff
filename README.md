@@ -52,39 +52,39 @@ Easily upload, compare, and track differences between two PDF files with an intu
 
 ### 🔹 1️⃣ Backend Setup  
 
-# Go to backend folder
+1. Go to backend folder
 cd backend
 
-# Create virtual environment
+2. Create virtual environment
 - python -m venv venv
 - source venv/bin/activate      # Windows: venv\Scripts\activate
 
-# Install dependencies
+3. Install dependencies
 pip install -r requirements.txt
 
-# Create .env file (inside backend/)
+4. Create .env file (inside backend/)
 - DJANGO_SECRET_KEY=your_secret_key
 - DJANGO_DEBUG=True
 - DJANGO_ALLOWED_HOSTS=127.0.0.1,localhost
 
-# Run migrations
+5. Run migrations
 python manage.py migrate
 
-# Start the backend server
+6. Start the backend server
 python manage.py runserver
 
 ### 🔹 2️⃣ Frontend Setup  
 
-# Go to frontend folder
+1. Go to frontend folder
 cd frontend
 
-# Install dependencies
+2. Install dependencies
 npm install
 
-# Start development server
+3. Start development server
 npm run dev
 
-# Build for production
+4. Build for production
 npm run build
 
 ---
