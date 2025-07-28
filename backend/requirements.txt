@@ -1,0 +1,10 @@
+Django>=5.0
+djangorestframework
+camelot-py[cv]
+pandas
+deepdiff
+openpyxl
+PyPDF2
+reportlab
+gunicorn
+python-docx
