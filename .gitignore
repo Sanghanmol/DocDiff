@@ -18,3 +18,5 @@ staticfiles/
 # Node / React
 node_modules/
 build/
+
+backend/media/uploads/
